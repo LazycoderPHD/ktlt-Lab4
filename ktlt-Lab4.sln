@@ -5,6 +5,8 @@ VisualStudioVersion = 17.14.36414.22 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ktlt-Lab4", "ktlt-Lab4\ktlt-Lab4.csproj", "{1EFAD0AD-BE75-46D3-B5BA-772771551A03}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "baitap2", "baitap2\baitap2.csproj", "{582EB0E0-3135-433F-BA18-5FFA09740C89}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1EFAD0AD-BE75-46D3-B5BA-772771551A03}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EFAD0AD-BE75-46D3-B5BA-772771551A03}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EFAD0AD-BE75-46D3-B5BA-772771551A03}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582EB0E0-3135-433F-BA18-5FFA09740C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582EB0E0-3135-433F-BA18-5FFA09740C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582EB0E0-3135-433F-BA18-5FFA09740C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582EB0E0-3135-433F-BA18-5FFA09740C89}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
