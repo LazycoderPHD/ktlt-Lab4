@@ -20,6 +20,9 @@ namespace baitap2
             Simplify();
         }
 
+        public int GetNumerator() => numerator;
+        public int GetDenominator() => denominator;
+
         private int GCD(int a, int b)
         {
             a = Math.Abs(a); b = Math.Abs(b);
@@ -43,7 +46,5 @@ namespace baitap2
         {
             return $"{numerator}/{denominator}";
         }
-
-        // Các phương thức tính toán khác (Add, Subtract...) có thể bổ sung tại đây
     }
 }

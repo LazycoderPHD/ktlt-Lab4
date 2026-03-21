@@ -27,7 +27,7 @@ void RunStudentDemo()
     Console.WriteLine(s.ToString());
 }
 
-RunStaffDemo();
+//RunStaffDemo();
 void RunStaffDemo()
 {
     Staff st = new Staff("Dao Nguyen Phat", 2007, "125 sieu sao", "IT", 1500.5);
