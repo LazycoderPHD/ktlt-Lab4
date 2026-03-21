@@ -22,13 +22,16 @@ namespace ktlt_Lab4
         public override void Input()
         {
             base.Input();
-            Console.Write("Nhap phong ban: "); department = Console.ReadLine()!;
-            Console.Write("Nhap luong: "); salary = double.Parse(Console.ReadLine()!);
+            Console.Write("Enter department: ");
+            department = Console.ReadLine()!;
+            Console.Write("Enter salary: ");
+            salary = double.Parse(Console.ReadLine()!);
         }
 
         public override string ToString()
         {
-            return $"Staff[{base.ToString()} - Department: {department}, Salary: {salary}]";
+            //return $"Staff[{base.ToString()} - Department: {department}, Salary: {salary}]";
+            return $"“Staff[ {base.ToString()}[Name: {name}, Age: {birthYear}, Address: {address}] - Department:\r\n{department}, Salary: {salary}]";
         }
 
         public void UpdateSalary(double salary)

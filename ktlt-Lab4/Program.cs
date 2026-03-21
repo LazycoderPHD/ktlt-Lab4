@@ -1,6 +1,6 @@
 ﻿using ktlt_Lab4;
 
-RunPersonDemo();
+//RunPersonDemo();
 void RunPersonDemo()
 {
     Person person1 = new Person();
@@ -19,3 +19,21 @@ void RunPersonDemo()
     Console.WriteLine($"{person3.ToString()}");
 }
 
+//RunStudentDemo();
+void RunStudentDemo()
+{
+    Student s = new Student();
+    s.Input();
+    Console.WriteLine(s.ToString());
+}
+
+RunStaffDemo();
+void RunStaffDemo()
+{
+    Staff st = new Staff("Dao Nguyen Phat", 2007, "125 sieu sao", "IT", 1500.5);
+    Console.WriteLine(st.ToString());
+    st.UpdateSalary(2000.5);
+
+    Console.WriteLine();
+    Console.WriteLine("Salary after update: " + st.ToString());
+}

@@ -22,8 +22,10 @@ namespace ktlt_Lab4
         public override void Input()
         {
             base.Input();
-            Console.Write("Nhap chuong trinh hoc: "); program = Console.ReadLine()!;
-            Console.Write("Nhap nam hoc: "); year = int.Parse(Console.ReadLine()!);
+            Console.Write("Enter your program: ");
+            program = Console.ReadLine()!;
+            Console.Write("Enter your year: ");
+            year = int.Parse(Console.ReadLine()!);
         }
 
         public override string ToString()

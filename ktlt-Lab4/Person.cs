@@ -22,11 +22,11 @@ namespace ktlt_Lab4
 
         public virtual void Input()
         {
-            Console.Write("Nhap ten: ");
+            Console.Write("Enter name: ");
             name = Console.ReadLine()!;
-            Console.Write("Nhap nam sinh: ");
+            Console.Write("Enter birhyear: ");
             birthYear = Convert.ToInt32(Console.ReadLine()!);
-            Console.Write("Nhap dia chi: ");
+            Console.Write("Enter address: ");
             address = Console.ReadLine()!;
         }
 
