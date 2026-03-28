@@ -82,7 +82,7 @@ namespace baitap1_OOP_part2
         public static bool operator <=(Fraction a, Fraction b) =>
             a.numerator * b.denominator <= b.numerator * a.denominator;
 
-        public override bool Equals(object obj) => obj is Fraction f && this == f;
+        public override bool Equals(object? obj) => obj is Fraction f && this == f;
         public override int GetHashCode() => HashCode.Combine(numerator, denominator);
     }
 }

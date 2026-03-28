@@ -5,7 +5,7 @@ RunFractionOperatorDemo();
 
 void RunCalculatorDemo()
 {
-    Console.WriteLine("--- Test Calculator ---");
+    Console.WriteLine("Test Calculator");
     Console.WriteLine($"Add(5, 10) = {Calculator.Add(5, 10)}");
     Console.WriteLine($"Max(3.5, 7.2, 1.1) = {Calculator.Max(3.5, 7.2, 1.1)}");
     Console.WriteLine();
@@ -13,7 +13,7 @@ void RunCalculatorDemo()
 
 void RunFractionOperatorDemo()
 {
-    Console.WriteLine("--- Test Toán tử Phân số và Hỗn số ---");
+    Console.WriteLine("Test Fraction, MixedFraction");
     Fraction f1 = new Fraction(1, 2);
     Fraction f2 = new Fraction(1, 3);
     MixedFraction mf1 = new MixedFraction(1, 1, 2);
