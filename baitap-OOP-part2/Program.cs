@@ -7,6 +7,7 @@ void RunCalculatorDemo()
 {
     Console.WriteLine("Test Calculator");
     Console.WriteLine($"Add(5, 10) = {Calculator.Add(5, 10)}");
+    Console.WriteLine($"Add(4.5, 5.5) = {Calculator.Add(4.5,5.5)}");
     Calculator calc = new Calculator();
     Console.WriteLine();
     Console.WriteLine("── Subtract ─────────────");
@@ -27,7 +28,9 @@ void RunCalculatorDemo()
     Console.WriteLine("Max(3, 7) = " + calc.Max(3, 7));           // 7
     Console.WriteLine("Max(3, 7, 1) = " + calc.Max(3, 7, 1));        // 7
     Console.WriteLine("Max(3.5, 7.2, 1.1) = " + calc.Max(3.5, 7.2, 1.1)); // 7.2
+    Console.WriteLine();
 }
+
 
 void RunFractionOperatorDemo()
 {
