@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace baitap1_OOP_part2
+namespace baitap_OOP_part2
 {
     public class Calculator
     {
